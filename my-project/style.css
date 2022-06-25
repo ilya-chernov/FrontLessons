@@ -8,7 +8,19 @@ body {
     font-family: Tahoma;
 }
 
+.info-text a {
+    text-decoration: none;
+    color: black;
+    transition: all .4s;
+}
+
+.info-text a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
 .info {
+    margin-top: 70px;
     margin-bottom: 20px;
     display: flex;
 }
@@ -85,3 +97,50 @@ body {
     margin-right: 0;
 }
 
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+   
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    color: white;
+    transition: all .4s;
+    padding: 6px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0px;
+   
+}
+
+
+.navbar ul li:hover {
+    margin-right: 10px;
+    color: orange;
+}
