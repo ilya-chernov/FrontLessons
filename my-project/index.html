@@ -10,11 +10,9 @@
 <body>
         <nav class="navbar">
             <ul class="menu">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-                <li>Item 5</li>
+                <li><a href="#hobby">Хобби</a></li>
+                <li><a href="#work">Опыт работы</a></li>
+                <li><a href="#contact">Связь со мной</a></li>
             </ul>
         </nav>
 
@@ -23,7 +21,7 @@
             <img src="img/avatar.png" alt="my photo" width="200" class="avatar">
                 <div class="info-text">
                     <h1>Илья Чернов</h1>
-                    <p>Я студент первого курса Балтийского Федерального Университета имени Иммануила Канта по специальности "Математическое
+                    <p  style="text-align: justify;">Я студент первого курса Балтийского Федерального Университета имени Иммануила Канта по специальности "Математическое
                         обеспечение и администрирование информационных систем" профиля "Разработка баз данных и приложений"</p>
                     </p>
 
@@ -33,16 +31,21 @@
                     <a href="#">VK</a> / <a href="#">Telegram</a> / <a href="#">WhatsApp</a>
                 </div>
             </div>
-        <div class="card hobby">
+        <div id="hobby" class="card hobby">
             <h2>Мои хобби</h1>
             <ul>
-                <li>Путешествие</li>
+                <li>Путешествия</li>
+                <li>Преподавательская деятельность</li>
+                <li>Коучинг</li>
                 <li>Блогинг</li>
+                <li>Бизнес</li>
+                <li>Иностранные языки</li>
             </ul>
         </div>
 
-        <div class="card">
+        <div id="work" class="card">
             <h2>Опыт работы</h1>
+                <p>К сожалению, у меня сейчас не так много опыта в области веб-разработки, но я пытаюсь научиться хорошо верстать и быть профессионалом своего дела. Ниже представлена таблица с перечнем мест, где я работал, но работал неофициально. Но я благодарен за этот опыт. </p>
            <table class="table">
             <td><strong>#</strong></td>
             <td><strong>Полное название учреждения</strong></td>
@@ -55,15 +58,17 @@
             <tr>
                 <td>2</td>
                 <td>ProGame - Центр программирования для детей</td>
-                <td>2021</td>
+                <td>2022-2022
+                </td>
             </tr>
            </table>
         </div>
 
         
            
-            <form action="#" class="form">
+            <form id="contact" action="#" class="form">
                 <h2>Связь со мной</h2>
+                <p style="text-align: center;">Вы можете заполнить эту форму, и я отвечу в течение 24 часов, так как регулярно проверяю админ-панель этого сайта. </p>
                 <div class="form-row">
                 <div class="form-item">
                     <label for="name">Имя</label>
